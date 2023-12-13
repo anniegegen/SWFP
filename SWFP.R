@@ -105,4 +105,3 @@ plot(x=vSLP,y=runoffavdaily[5:8],ylab='Av. Daily Runoff (mm)',xlab='Slope (%)',m
 plot(x=vSLP,y=runoffdays[5:8],ylab='Days of Runoff',xlab='Slope (%)',main='(d)',type='b',col='cadetblue')
 plot(x=vK,y=runoffavdaily[9:12],log='x',ylab='Av. Daily Runoff (mm)',xlab='Saturated Conductivity (cm/hr)',main='(e)',type='b',col='cadetblue')
 plot(x=vK,y=runoffdays[9:12],log='x',ylab='Days of Runoff',xlab='Saturated Conductivity (cm/hr)',main='(f)',type='b',col='cadetblue')
-#plot variables vs days of runoff
